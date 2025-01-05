@@ -1,0 +1,98 @@
+/* Dashboard.css */
+
+/* Container for the whole dashboard with layered background */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(to bottom, 
+  #a0d2eb, /* Bright Blue */
+  #e5eaf5, /* Blue Green */
+  #d0bdf4, /* Dusty White */
+  #8458B3,
+  #a28089
+  /* Pink Sand */
+  );
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section for the payout calculator */
+.payoutCalculator {
+  background-color: #ffffff; /* White background for the payout calculator box */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.payoutCalculator h2 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.payoutCalculator div {
+  margin-bottom: 15px;
+}
+
+.payoutCalculator input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.payoutCalculator h3 {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Chart container */
+.chartContainer {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+/* Export functionality box */
+.exportOptions {
+  background-color: #ffffff; /* White background for the export box */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Export buttons styling */
+.exportOptions button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.exportOptions button:hover {
+  background-color: #388E3C;
+}
+
+.exportOptions button:focus {
+  outline: none;
+}
+
+/* Optional: Add some margin for better separation */
+.exportOptions {
+  margin-top: 20px;
+}
