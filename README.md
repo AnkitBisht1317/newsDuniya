@@ -13,7 +13,7 @@ A responsive React-based news application for viewing news articles in various c
 - [License](#license)
 
 - 
-![Uploading sample.png…]()
+![sample](https://github.com/user-attachments/assets/b4d87b83-9661-4b4e-a7ae-7695b2608b17)
 
 
 ## About the Project
