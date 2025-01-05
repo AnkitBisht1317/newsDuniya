@@ -12,7 +12,9 @@ A responsive React-based news application for viewing news articles in various c
 - [Contributing](#contributing)
 - [License](#license)
 
-![logo](https://github.com/user-attachments/assets/824226b0-ad51-44cc-8825-c83fa6d5da0b)
+- 
+![Uploading sample.png…]()
+
 
 ## About the Project
 Dunia News provides users with the latest news articles from various categories, such as politics, health, sports, entertainment, and fitness. It is built with React and styled for modern web standards. The project also includes:
